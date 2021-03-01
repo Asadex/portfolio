@@ -1,0 +1,11 @@
+footer{
+    max-width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+    background-color: darken($primary-color,10%);
+    color: white;
+    font-weight: 300;
+}
+footer .text{
+    text-align: center;
+}

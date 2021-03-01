@@ -1,0 +1,41 @@
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    position: relative;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (min-width: 1301px){
+    .container-xl {
+        max-width: 1300px;
+        position: relative;
+    }
+}
+.over-height{
+    height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+.primary-background{
+    background-color: $primary-color;    
+}
+
+.secondary-background {
+    background-color: $secondary-color;
+}
+
+.light-background {
+    background-color: $light-color;
+}
+
+.contrast-background {
+    background-color: $contrast-color;
+}

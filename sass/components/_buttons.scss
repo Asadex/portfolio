@@ -1,0 +1,5 @@
+.button{
+    cursor: pointer;
+    @include general-button($secondary-color
+    ,white,white, $secondary-color);
+}

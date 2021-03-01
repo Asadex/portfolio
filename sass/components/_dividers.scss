@@ -1,0 +1,23 @@
+.custom-shape-divider-bottom-1614335300 {
+    position: absolute;
+    bottom: 0;;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 3;
+    // @media screen and (max-width: 1300px) {
+    //     display: none;
+    // }
+}
+
+.custom-shape-divider-top-1614610610 {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+path{fill: white;stroke: none}
